@@ -1,0 +1,5 @@
+
+<pe:blocktemplate count="6" pivot="19190,5,19206" relative_motion="true">
+	<pe:blocks>{{0,0,0,271,3,{attr={agentDependencies="",agentExternalFiles="",agentName="official.autoplay",agentUrl="Mod/Agents/official.autoplay.xml",bx=19190,by=5,bz=19206,class="EntityAgentSign",isGlobal=true,isPhantom=false,item_id=271,updateMethod="manual",version="1.0",},name="entity",{name="cmd","自动播放电影",},},},{0,0,1,219,15,{attr={allowGameModeEdit=false,bx=19190,by=5,bz=19207,class="EntityCode",codeLanguageType="npl",isBlocklyEditMode=false,isPowered=true,item_id=219,},name="entity",{name="cmd","-- 产生一个1秒的脉冲信号\r\n-- 通过中继器输出给链接的电影方块\r\nsetOutput(15)\r\nwait(1)\r\nsetOutput(0)",},},},{0,0,2,197,3,},{0,1,1,190,13,},{0,0,3,133,},{1,0,3,211,[6]={attr={bx=19191,by=5,bz=19209,class="EntitySign",item_id=211,},name="entity",{name="cmd","换成电影方块\r\n进入世界\r\n会自动播放",},},},}
+	</pe:blocks>
+</pe:blocktemplate>
